@@ -1,11 +1,15 @@
+:root {
+  --background-color: black;
+}
+
 body {
-  background-color: black;
+  background-color: var(--background-color);
   color: white;
 }
 .tex {
+  background-image: url("images/tex-home.jpg");
   text-align: center;
   margin-top: 276px;
-  background-image: url("images/tex-home.jpg");
 }
 p,
 h1 {
@@ -41,4 +45,5 @@ h2 {
   padding-right: 30px;
   padding-bottom: 18px;
   border-radius: 25px;
+  margin-bottom: 405px;
 }
