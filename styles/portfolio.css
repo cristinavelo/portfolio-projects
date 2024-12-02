@@ -1,17 +1,31 @@
-/* .roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+body {
+  background-color: black;
+  color: white;
 }
-
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+.tex {
+  text-align: center;
+  margin-top: 276px;
 }
-
-.roboto-bold {
+p,
+h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+p {
+  font-size: 15px;
+}
+h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 96px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 48px;
 }
