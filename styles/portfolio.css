@@ -7,7 +7,10 @@ body {
   color: white;
 }
 .tex {
-  background-image: url("images/tex-home.jpg");
+  background-image: url("../images/tex-home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top;
   text-align: center;
   margin-top: 276px;
 }
