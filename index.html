@@ -36,43 +36,32 @@
     <title>Tex Willer</title>
   </head>
   <body>
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="images/Logo_tex_Willer.png"
-            alt="tex-logo"
-            width="50"
-            height="40"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+      <a class="navbar-brand" href="#">
+        <img
+          src="images/Logo_tex_Willer.png"
+          alt="tex-logo"
+          width="50"
+          height="40"
+        />
+      </a>
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a
+            class="nav-link active text-white"
+            aria-current="page"
+            href="about.html"
+            >About</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </nav>
     <div class="tex">
       <p>GIANLUIGI BONELLI, AURELIO GALLEPPINI</p>
@@ -132,6 +121,37 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="footer">
+      <nav class="navbar bg-dark sticky-sm-bottom" data-bs-theme="dark">
+        <a class="nav-link" href="#">
+          <img src="images/Logo_tex_Willer.png" width="50" height="40" />
+        </a>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              <i class="fa-brands fa-instagram text-bg-dark p-3"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-brands fa-facebook-f text-bg-dark p-3"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-globe text-bg-dark p-3"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="text-bg-dark p-3 text-decoration-none font-size-base">
+              @2024 SheCodes All rights reserved.
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </body>
 </html>
